@@ -104,7 +104,7 @@ const ListingCard = ({
           <p>{type}</p>
           <p>
             {" "}
-            <span>₦</span> {editedPrice} per night
+            <span>Rs.</span> {editedPrice} per night
           </p>
         </>
       ) : (
@@ -115,7 +115,7 @@ const ListingCard = ({
                 {startDate} - {endDate}
               </p>
               <p>
-                <span>₦</span> {editedTotalPrice} total
+                <span>Rs.</span> {editedTotalPrice} total
               </p>
             </>
           )}
@@ -127,7 +127,7 @@ const ListingCard = ({
           <p>{type}</p>
           <p>
             {" "}
-            <span>₦</span> {editedPrice} per annum
+            <span>Rs.</span> {editedPrice} per annum
           </p>
         </>
       )}
@@ -136,7 +136,7 @@ const ListingCard = ({
           <p>{type}</p>
           <p>
             {" "}
-            <span>₦</span> {editedPrice} Outright
+            <span>Rs.</span> {editedPrice} Outright
           </p>
         </>
       )}

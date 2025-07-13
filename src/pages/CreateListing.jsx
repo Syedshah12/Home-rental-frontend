@@ -452,7 +452,7 @@ const CreateListing = () => {
               />
 
               <p>Price</p>
-              <span>₦</span>
+              <span>Rs.</span>
               <input
                 type="number"
                 placeholder="0"
