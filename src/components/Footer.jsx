@@ -23,7 +23,7 @@ const Footer = () => {
         <h3>Contact</h3>
         <div className="footer_right_info">
           <Email />
-          <p>chireva@support.com</p>
+          <p>abeershah392@gmail.com</p>
         </div>
         <img src="/assets/payment.png" alt="paymet" />
       </div>

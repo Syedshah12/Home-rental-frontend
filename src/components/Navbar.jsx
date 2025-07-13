@@ -15,9 +15,12 @@ const Navbar = () => {
   const navigate = useNavigate();
   return (
     <div className="navbar">
-      <Link to="/">
-        <img src="/assets/logo.png" alt="logo" />
-      </Link>
+   <Link to="/" >
+  <img src="/assets/logo.png" alt="" srcset="" />
+ 
+
+</Link>
+
       <div className="navbar_search">
         <input
           type="text"
